@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="Utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Projet Bootstrap</title>
+        <!--Code source cdn font awesome-->
+        <script src="https://kit.fontawesome.com/2bc3f708da.js"
+        crossorigin="anonymous"></script>
+        <!--Code source cdn css-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!--Code source cdn js-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+        <!--Code source google font-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="main-nav">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">EmploiFacile</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navabarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-1">
+                            <a href="#main-nav" class="nav-link">Accueil</a>
+                        </li>
+                        <li class="nav-item mr-1">
+                            <a href="#info" class="nav-link">Concept</a>
+                        </li>
+                        <li class="nav-item mr-1">
+                            <a href="#Clients" class="nav-link">Nos clients</a>
+                        </li>
+                        <li class="nav-item mr-1">
+                            <a href="#newsletter" class="nav-link">Newsletter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- header accueil grande image -->
+        <header class="text-center">
+
+            <div class="text-intro">
+
+                <div class="preTxt text-white font-italic">Décrochez le job de vos rêves</div>
+                <h1>
+                    Sur EmploiFacile
+                </h1>
+                <a href="#" class="btn btn-primary mt-3">En savoir plus</a>
+
+            </div>
+
+        </header>
+
+        <!-- Section info -->
+
+        <section class="py-5" id="info">
+            <div class="container">
+                <div class="row">
+                    <div id="txtLaptop" class="col-md-6 align-self-center">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Nesciunt labore nam nisi voluptatibus! Aliquam consequatur
+                            rerum perferendis iure est quam!</p>
+                        <a href="#" class="btn btn-outline-danger">Découvrir</a>
+                        
+                    </div>
+                    <div class="col-mb-6">
+                        <img src="img/laptop.png" class="img-fluid"alt="laptop ordinateur">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- trois icônes -->
+
+        <section id="home-icons">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4 text-center">
+                        <i class="fas fa-cog fa-3x mb-2">
+                            <h3>Outil performant</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Provident aliquam tenetur praesentium amet, repudiandae
+                                eveniet dolore, dolores assumenda molestias quidem</p>
+                        </i>
+                    </div>
+                    <div class="col-md-4 mb-4 text-center">
+                        <i class="fas fa-cloud fa-3x mb-2">
+                            <h3>Ce que vous devez savoir</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Provident aliquam tenetur praesentium amet, repudiandae
+                                eveniet dolore, dolores assumenda molestias quidem</p>
+                        </i>
+                    </div>
+                    <div class="col-md-4 mb-4 text-center">
+                        <i class="fas fa-cart-plus fa-3x mb-2">
+                            <h3>On vous accompagne</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Provident aliquam tenetur praesentium amet, repudiandae
+                                eveniet dolore, dolores assumenda molestias quidem</p>
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Call to action -->
+
+        <section id="start" class="py-5">
+            <div class="container py-5">
+                <h2 class="pb-3">Etes-vous prêt pour l'aventure?</h2>
+                <p class="d-done d-mb-block">Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Labore porro quam quod
+                    inventore, ducimus dolores.</p>
+                    <a href="#" class="btn btn-primary">Rejoins-nous !</a>
+            </div>
+        </section>
+
+        <!-- Section clients -->
+
+        <section id="clients"  class="my-5 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="info-header mb-5">
+                            <h2 class="pb-3">Nos clients</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Error, labore.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/visage1.jpg" alt="visage" class="img-fluid rounded-circle w50 mb-3">
+                                <h3>Tom Cruz</h3>
+                                <h5 class="text-muted">Développeur</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="d-flex justify-content-center">
+                                    <div class="p-4">
+                                        <a href="http://facebook.com">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                    </div>
+                                    <div class="p-4">
+                                        <a href="http://twitter.com">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    </div>
+                                    <div class="p-4">
+                                        <a href="http://instagram.com">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/visage2.png" alt="visage" class="img-fluid rounded-circle w50 mb-3">
+                                <h3>Camille Moran</h3>
+                                <h5 class="text-muted">Marketting</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="d-flex justify-content-center">
+                                    <div class="p-4">
+                                        <a href="http://facebook.com">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                    </div>
+                                    <div class="p-4">
+                                        <a href="http://twitter.com">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    </div>
+                                    <div class="p-4">
+                                        <a href="http://instagram.com">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/visage3.png" alt="visage" class="img-fluid rounded-circle w50 mb-3">
+                                <h3>John Lo</h3>
+                                <h5 class="text-muted">Développeur</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="d-flex justify-content-center">
+                                    <div class="p-4">
+                                        <a href="http://facebook.com">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                    </div>
+                                    <div class="p-4">
+                                        <a href="http://twitter.com">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    </div>
+                                    <div class="p-4">
+                                        <a href="http://instagram.com">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/visage4.png" alt="visage" class="img-fluid rounded-circle w50 mb-3">
+                                <h3>Suna Suzanne</h3>
+                                <h5 class="text-muted">Web Design</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <div class="d-flex justify-content-center">
+                                    <div class="p-4">
+                                        <a href="http://facebook.com">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                    </div>
+                                    <div class="p-4">
+                                        <a href="http://twitter.com">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    </div>
+                                    <div class="p-4">
+                                        <a href="http://instagram.com">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Newsletter -->
+
+        <section id="newsletter" class="text-center p-5 bg-dark text-white">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3>Abonnez-vous à la newsletter</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit blanditiis iusto ipsum!</p>
+                        <form class="form-inline justify-content-center"></form>
+                            <input type="text" class="form-control mb-2 mr-2" placeholder="Nom">
+                            <input type="text" class="form-control mb-2 mr-2" placeholder="Email">
+                            <button class="btn btn-primary mb-2">Soumettre</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- Footer -->
+
+<footer id="main-footer" class="text-center p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Copiright &copy;
+                    <span id="year">EmploiFacile</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--Script bootstrap-->
+          <!--Code source cdn font awesome-->
+          <script src="https://kit.fontawesome.com/2bc3f708da.js" crossorigin="anonymous"></script>
+          <!--Code source cdn css-->
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+          <!--Code source cdn js-->
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+          crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+          crossorigin="anonymous"></script>
+          <!--Code source google font-->
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+          <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> 
+  
+
+          <script>
+              // Générer date
+              $('#year').text(new Date().getFullYear());
+
+              // SscrollSpy
+              $('body').scrollspy({target: 'main-nav'});
+
+
+
+          </script>
+    </body>
+</html>

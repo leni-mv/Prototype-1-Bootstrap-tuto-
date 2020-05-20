@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #f1f1f1;
+}
+
+header {
+    background: url('img/headerImg.jpg');
+    background-size: cover;
+    height: 80vh;
+}
+
+.navbar-brand {
+    font-family: Kaushan Script;
+    font-size: 25px;
+}
+
+.navbarCollapse {
+    font-size: 20px;
+}
+
+.text-intro {
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.preTxt {
+    font-size: 90px;
+}
+
+h1 {
+    font-size: 90px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+/* Trois icônes */
+
+#home-icons {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-top: 1px solid #000;
+}
+
+/* Call sections */
+
+#start {
+    position: relative;
+    min-height: 200px;
+    background: url('img/start.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+#start h2 {
+    font-size: 40px;
+    color: #f1f1f1;
+}
+
+/* Clients */
+
+#clients img {
+    margin-top: -50px;
+}
+
+.fab {
+    font-size: 25px;
+    color: #003366;
+}
+
+/* Médias Queries */
+
+@media screen and (max-width: 768px) {
+
+    header {
+        height: 60vh;
+    }
+
+    .text-intro {
+        padding-top: 200px;
+    }
+
+    .preTxt {
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .pretxt {
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 39px;
+    }
+
+    .text-intro a {
+        transform: scale(0.8); /*passer de 100% à 80% */
+    }
+}
